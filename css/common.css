@@ -12,3 +12,24 @@ body {
     font-family: 'Open Sans', sans-serif;
 }
 
+:root {
+    --main-txt-color: #FFFFFF;
+    --sec-txt-color: #A3A3A3;
+    --main-back-color: #141922;
+    --sec-back-color: #000000;
+    --player-color: #282828;
+}
+
+.clearfix::after {
+    content: '';
+    display: table;
+    clear: both;
+}
+
+.flex {
+    display: flex;
+}
+
+.wrap {
+    flex-wrap: wrap;
+}

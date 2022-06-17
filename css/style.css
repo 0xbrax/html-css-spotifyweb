@@ -2,3 +2,47 @@
     STYLE
 ************************************/
 
+/* MAIN */
+
+.container {
+    height: calc(100vh - 70px);
+}
+
+.sidebar {
+    width: 250px;
+    height: 100%;
+    background-color: var(--sec-back-color);
+    float: left;
+}
+
+.sidebar-small {
+    width: 50px;
+    height: 100%;
+    background-color: var(--sec-back-color);
+    float: left;
+    display: none;
+}
+
+.layout {
+    width: calc(100% - 250px);
+    height: 100%;
+    background-color: var(--main-back-color);
+    float: right;
+}
+
+.topbar {
+    position: fixed;
+    top: 0;
+    left: 250px;
+    width: calc(100% - 250px);
+}
+
+.item-container {
+    height: 100%;
+    overflow-y: scroll;
+    padding-top: 100px;
+}
+
+.card {
+    width: calc(100% / 6);
+}

@@ -1,0 +1,31 @@
+/************************************
+    MEDIA QUERY 992px 768px 576px
+************************************/
+
+@media screen and (max-width: 992px) {
+    .card {
+        width: calc(100% / 4);
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .card {
+        width: calc(100% / 2);
+    }
+}
+
+@media screen and (max-width: 576px) {
+    .sidebar {
+        display: none;
+    }
+    .sidebar-small {
+        display: block;
+    }
+    .layout {
+        width: calc(100% - 50px);
+    }
+    .topbar {
+        left: 50px;
+        width: calc(100% - 50px);
+    }
+}
