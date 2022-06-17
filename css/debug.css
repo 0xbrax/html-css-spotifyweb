@@ -2,6 +2,30 @@
     DEBUG BODY CLASS X LAYOUT
 ************************************/
 
+.debug .main-logo {
+    background-color: blueviolet;
+    height: 100px;
+    border: 5px solid white;
+}
+
+.debug .main-menu {
+    background-color: yellow;
+    height: 200px;
+    border: 5px solid white;
+}
+
+.debug .playlist {
+    background-color: aqua;
+    height: 50px;
+    border: 5px solid white;
+}
+
+.debug .user {
+    background-color: blue;
+    height: 100px;
+    border: 5px solid white;
+}
+
 .debug .topbar {
     background-color: yellowgreen;
     height: 100px;

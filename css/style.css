@@ -2,8 +2,6 @@
     STYLE
 ************************************/
 
-/* MAIN */
-
 .container {
     height: calc(100vh - 70px);
 }
@@ -13,7 +11,24 @@
     height: 100%;
     background-color: var(--sec-back-color);
     float: left;
+    position: relative;
+    overflow-y: hidden;
 }
+
+.playlist-container {
+    min-height: 150px;
+    height: 150px;
+    overflow-y: scroll;
+}
+
+.user {
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+
+
 
 .sidebar-small {
     width: 50px;
@@ -22,6 +37,15 @@
     float: left;
     display: none;
 }
+
+
+
+
+
+
+
+
+
 
 .layout {
     width: calc(100% - 250px);
