@@ -30,6 +30,14 @@ body {
     display: flex;
 }
 
+.col {
+    flex-direction: column;
+}
+
+.justify-sp {
+    justify-content: space-between;
+}
+
 .wrap {
     flex-wrap: wrap;
 }
