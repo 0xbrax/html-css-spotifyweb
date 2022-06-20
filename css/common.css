@@ -51,6 +51,18 @@ ul {
     justify-content: space-between;
 }
 
+.justify-ctr {
+    justify-content: center;
+}
+
+.justify-end {
+    justify-content: flex-end;
+}
+
+.align-ctr {
+    align-items: center;
+}
+
 .wrap {
     flex-wrap: wrap;
 }
