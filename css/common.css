@@ -26,6 +26,15 @@ body {
     clear: both;
 }
 
+a:link {text-decoration: none;}
+a:visited {text-decoration: none;}
+a:active {text-decoration: none;}
+a:hover {text-decoration: none;}
+
+ul {
+    list-style: none;
+}
+
 .flex {
     display: flex;
 }
@@ -40,4 +49,25 @@ body {
 
 .wrap {
     flex-wrap: wrap;
+}
+
+.my-top10 {
+    margin-top: 10px;
+}
+
+.my-bottom20 {
+    margin-bottom: 20px;
+}
+
+h2 {
+    font-size: 30px;
+}
+
+h2,
+h3 {
+    color: var(--main-txt-color);
+}
+
+p {
+    color: var(--sec-txt-color);
 }
