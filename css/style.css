@@ -69,6 +69,23 @@
     top: 0;
     left: 250px;
     width: calc(100% - 250px);
+    z-index: 999;
+    height: 80px;
+    background-color: rgba(0, 0, 0, 0.5);
+    text-align: right;
+}
+
+.btn-call {
+    color: var(--main-txt-color);
+    text-transform: uppercase;
+    display: inline-block;
+    border: 2px solid var(--main-txt-color);
+    padding: 10px 40px;
+    border-radius: 30px;
+    position: absolute;
+    top: 50%;
+    right: 30px;
+    transform: translate(0, -50%);
 }
 
 .item-container {
@@ -76,6 +93,21 @@
     overflow-y: scroll;
     padding-top: 100px;
     padding-left: 15px;
+}
+
+.topbar-menu {
+    text-align: center;
+    padding-right: 15px;
+}
+
+.topbar-menu ul {
+    color: var(--sec-txt-color);
+    text-transform: uppercase;
+}
+
+.topbar-menu li {
+    display: inline-block;
+    padding: 5px 10px;
 }
 
 .card {
