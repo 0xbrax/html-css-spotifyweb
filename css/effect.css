@@ -1,0 +1,29 @@
+/************************************
+    EFFECT
+************************************/
+
+.layout,
+.item-container {
+    scroll-behavior: smooth;
+}
+
+.fx-btn-sidebar:hover {
+    box-shadow: inset 5px 0px 0px 0px var(--fx-color);
+    background-color: rgba(255, 255, 255, 0.2);
+    color: var(--main-txt-color);
+}
+
+.fx-btn-topbar:hover {
+    color: var(--main-txt-color);
+}
+
+.fx-btn-topbar-border {
+    width: 70%;
+    margin: 5px auto 0 auto;
+    height: 2px;
+    background-color: var(--main-back-color);
+}
+
+.fx-btn-topbar:hover .fx-btn-topbar-border {
+    background-color: var(--fx-color);
+}

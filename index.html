@@ -12,6 +12,7 @@
         
         <link rel="stylesheet" href="css/common.css">
         <link rel="stylesheet" href="css/style.css">
+        <link rel="stylesheet" href="css/effect.css">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     
         <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -30,13 +31,13 @@
                 -->
                 <div class="sidebar flex col">
                     <div class="main-logo">
-                        <a href="#"><img src="img/logo.svg" alt="Spotify"></a>
+                        <a href="#start-page"><img src="img/logo.svg" alt="Spotify"></a>
                     </div>
                     <nav class="main-menu my-top20">
                         <ul>
-                            <li class="clearfix"><img src="img/home.svg" alt="Home"><span class="txt-menu">Home</span></li>
-                            <li class="clearfix"><img src="img/search.svg" alt="Search"><span class="txt-menu">Cerca</span></li>
-                            <li class="clearfix"><img src="img/libreria.svg" alt="Library"><span class="txt-menu">La tua libreria</span></li>
+                            <li class="fx-btn-sidebar clearfix"><img src="img/home.svg" alt="Home"><span class="txt-menu">Home</span></li>
+                            <li class="fx-btn-sidebar clearfix"><img src="img/search.svg" alt="Search"><span class="txt-menu">Cerca</span></li>
+                            <li class="fx-btn-sidebar clearfix"><img src="img/libreria.svg" alt="Library"><span class="txt-menu">La tua libreria</span></li>
                         </ul>
                     </nav>
                     <div class="playlist-container flex col my-top30">
@@ -71,13 +72,13 @@
                 -->
                 <div class="sidebar-small">
                     <div class="small-logo">
-                        <a href="#"><img src="img/logo-small.svg" alt="Spotify"></a>
+                        <a href="#start-page"><img src="img/logo-small.svg" alt="Spotify"></a>
                     </div>
                     <div class="small-menu">
                         <ul>
-                            <li><img src="img/home.svg" alt="Home"></li>
-                            <li><img src="img/search.svg" alt="Search"></li>
-                            <li><img src="img/libreria.svg" alt="Library"></li>
+                            <li class="fx-btn-sidebar"><img src="img/home.svg" alt="Home"></li>
+                            <li class="fx-btn-sidebar"><img src="img/search.svg" alt="Search"></li>
+                            <li class="fx-btn-sidebar"><img src="img/libreria.svg" alt="Library"></li>
                         </ul>
                     </div>
                     <div class="user-small">
@@ -102,14 +103,32 @@
                         LAYOUT ITEM
                     -->
                     <div class="item-container">
-                        <div class="topbar-menu">
+                        <div id="start-page" class="topbar-menu">
                             <ul>
-                                <li>In Evidenza</li>
-                                <li>Podcast</li>
-                                <li>Classifiche</li>
-                                <li>Generi e Mood</li>
-                                <li>Nuove Uscite</li>
-                                <li>Scopri</li>
+                                <li class="fx-btn-topbar">
+                                    In Evidenza
+                                    <div class="fx-btn-topbar-border"></div>
+                                </li>
+                                <li class="fx-btn-topbar">
+                                    Podcast
+                                    <div class="fx-btn-topbar-border"></div>
+                                </li>
+                                <li class="fx-btn-topbar">
+                                    Classifiche
+                                    <div class="fx-btn-topbar-border"></div>
+                                </li>
+                                <li class="fx-btn-topbar">
+                                    Generi e Mood
+                                    <div class="fx-btn-topbar-border"></div>
+                                </li>
+                                <li class="fx-btn-topbar">
+                                    Nuove Uscite
+                                    <div class="fx-btn-topbar-border"></div>
+                                </li>
+                                <li class="fx-btn-topbar">
+                                    Scopri
+                                    <div class="fx-btn-topbar-border"></div>
+                                </li>
                             </ul>
                         </div>
                         <div class="txt-item my-top30">

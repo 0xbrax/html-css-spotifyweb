@@ -220,6 +220,7 @@
 .topbar-menu {
     text-align: center;
     padding-right: 15px;
+    scroll-margin-top: 100px;
 }
 
 .topbar-menu ul {
@@ -347,7 +348,7 @@ footer {
 #player-btn {
     height: 16px;
     width: 16px;
-    background-color: greenyellow;
+    background-color: var(--fx-color);
     position: absolute;
     right: 0;
     top: 50%;
@@ -382,7 +383,7 @@ footer {
 #volume-btn {
     height: 16px;
     width: 16px;
-    background-color: greenyellow;
+    background-color: va;
     position: absolute;
     right: 0;
     top: 50%;

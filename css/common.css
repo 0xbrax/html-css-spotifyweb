@@ -18,6 +18,7 @@ body {
     --main-back-color: #141922;
     --sec-back-color: #000000;
     --player-color: #282828;
+    --fx-color: #ADFF2F;
 }
 
 .clearfix::after {
