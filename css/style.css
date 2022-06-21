@@ -254,7 +254,7 @@
 }
 
 .img-overlay {
-    background-color: rgba(0, 0, 0, 0.5);
+    background-color: rgba(0, 0, 0, 0.3);
     position: absolute;
     top: 0;
     left: 0;
@@ -284,13 +284,13 @@ footer {
 
 .info,
 .tool {
-    width: 24%;
+    width: 29%;
     height: 80px;
     padding: 0 15px;
 }
 
 .player {
-    width: 48%;
+    width: 40%;
 }
 
 .player-container .info img {
@@ -319,6 +319,7 @@ footer {
 .player-top {
     text-align: center;
     font-size: 18px;
+    margin-bottom: 5px;
 }
 
 .player-top li {
@@ -327,12 +328,18 @@ footer {
     vertical-align: middle;
 }
 
-.player-top li:nth-child(3) {
+#play-btn,
+#pause-btn {
     font-size: 26px;
 }
 
+#pause-btn {
+    display: none;
+}
+
 #player-control {
-    width: 300px;
+    width: 100%;
+    max-width: 300px;
     height: 4px;
     background-color: var(--sec-txt-color);
     margin-left: 30px;
@@ -346,7 +353,7 @@ footer {
     left: 0;
     top: 50%;
     transform: translate(0, -50%);
-    width: 25%;
+    width: 0%;
     height: 6px;
     background-color: var(--main-txt-color);
     border-radius: 2px;
@@ -361,6 +368,7 @@ footer {
     top: 50%;
     transform: translate(50%, -50%);
     border-radius: 50%;
+    display: none;
 }
 
 .player-container .tool i {
@@ -396,4 +404,5 @@ footer {
     top: 50%;
     transform: translate(50%, -50%);
     border-radius: 50%;
+    display: none;
 }

@@ -9,8 +9,8 @@
 
 .btn-call:hover {
     background-color: rgba(255, 255, 255, 0.2);
-    scale: 110%;
-    transform: translate(0, calc(-90% / 2));
+    scale: 105%;
+    transform: translate(0, calc(-95% / 2));
 }
 
 .fx-btn-sidebar:hover {
@@ -57,5 +57,40 @@
 
 .card:hover .img-overlay, 
 .card:hover .play-overlay {
+    display: block;
+}
+
+.player-container .info i:hover {
+    color: var(--main-txt-color);
+}
+
+.btn-info-song:hover {
+    opacity: 0.8;
+}
+
+.btn-player:hover {
+    scale: 120%;
+}
+
+.btn-tool:hover {
+    color: var(--sec-txt-color);
+}
+
+#player-control:hover #player-btn {
+    display: block;
+}
+
+#player-live {
+    animation: song-play 30s linear infinite;
+    animation-play-state: paused;
+}
+
+@keyframes song-play {
+    100% {
+        width: 100%;
+    }
+}
+
+#volume-control:hover #volume-btn {
     display: block;
 }

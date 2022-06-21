@@ -18,7 +18,9 @@
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap" rel="stylesheet">
-    
+        
+        <script src="js/script.js"></script>
+
         <link rel="stylesheet" href="css/mq.css">
     </head>
     
@@ -275,12 +277,14 @@
         <footer>
             <div class="player-container flex justify-sp">
                 <div class="info flex align-ctr">
-                    <div class="noshow-mobile">
-                        <img src="img/player_left.jpg" alt="Player">
-                    </div>
-                    <div class="txt-info">
-                        <h4>Nome Brano</h4>
-                        <div>Nome Artista</div>
+                    <div class="flex align-ctr btn-info-song">
+                        <div class="noshow-mobile">
+                            <img src="img/player_left.jpg" alt="Player">
+                        </div>
+                        <div class="txt-info">
+                            <h4>Nome Brano</h4>
+                            <div>Nome Artista</div>
+                        </div>
                     </div>
                     <div class="noshow-tablet992">
                         <i class="fa-regular fa-heart"></i><i class="fa-regular fa-folder"></i>
@@ -289,15 +293,16 @@
                 <div class="player flex col justify-ctr">
                     <div class="player-top">
                         <ul>
-                            <li><i class="fa-solid fa-shuffle noshow-mobile"></i></li>
-                            <li><i class="fa-solid fa-backward-step"></i></li>
-                            <li><i class="fa-regular fa-circle-play"></i></li>
-                            <li><i class="fa-solid fa-forward-step"></i></li>
-                            <li><i class="fa-solid fa-arrow-rotate-right noshow-mobile"></i></li>
+                            <li class="noshow-mobile"><i class="fa-solid fa-shuffle btn-player"></i></li>
+                            <li><i class="fa-solid fa-backward-step btn-player"></i></li>
+                            <li id="play-btn" onclick="playSong()"><i class="fa-regular fa-circle-play btn-player"></i></li>
+                            <li id="pause-btn" onclick="pauseSong()"><i class="fa-regular fa-circle-pause btn-player"></i></li>
+                            <li><i class="fa-solid fa-forward-step btn-player"></i></li>
+                            <li class="noshow-mobile"><i class="fa-solid fa-arrow-rotate-right btn-player"></i></li>
                         </ul>
                     </div>
-                    <div class="player-bottom flex justify-ctr align-ctr my-top10">
-                        <div>
+                    <div class="player-bottom flex justify-ctr align-ctr">
+                        <div class="noshow-tablet768">
                             XX:XX
                         </div>
                         <div id="player-control">
@@ -305,15 +310,15 @@
                                 <div id="player-btn"></div>
                             </div>
                         </div>
-                        <div>
+                        <div class="noshow-tablet768">
                             XX:XX
                         </div>
                     </div>
                 </div>
                 <div class="tool flex align-ctr justify-end">
-                    <i class="fa-solid fa-list-ul noshow-tablet768"></i>
-                    <i class="fa-solid fa-display noshow-tablet768"></i>
-                    <i class="fa-solid fa-volume-high"></i>
+                    <i class="fa-solid fa-list-ul noshow-tablet768 btn-tool"></i>
+                    <i class="fa-solid fa-display noshow-tablet768 btn-tool"></i>
+                    <i class="fa-solid fa-volume-high btn-tool"></i>
                     <div id="volume-control">
                         <div id="volume-live">
                             <div id="volume-btn"></div>

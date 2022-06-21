@@ -49,7 +49,16 @@
         left: 0;
         width: 100%;
     }
+    .info,
+    .player,
+    .tool {
+        width: calc(98% / 3);
+    }
     .noshow-mobile {
+        display: none;
+    }
+    .player-top li:first-child,
+    .player-top li:last-child {
         display: none;
     }
 }
