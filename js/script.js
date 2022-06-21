@@ -19,3 +19,10 @@ function pauseSong() {
             player.style.animationPlayState = "paused";            
         }
 }
+
+function deleteItem() {
+    var demoPanel = document.getElementById("demo-panel")
+        if (demoPanel.style.display = "inline-block") {
+            demoPanel.style.display = "none";
+        }
+}

@@ -18,6 +18,9 @@
     .noshow-tablet768 {
         display: none;
     }
+    .player-top {
+        margin-bottom: 10px;
+    }
 }
 
 @media screen and (max-width: 576px) {

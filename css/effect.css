@@ -9,8 +9,7 @@
 
 .btn-call:hover {
     background-color: rgba(255, 255, 255, 0.2);
-    scale: 105%;
-    transform: translate(0, calc(-95% / 2));
+    transform: scale(105%) translate(0, calc(-95% / 2));
 }
 
 .fx-btn-sidebar:hover {
@@ -69,7 +68,7 @@
 }
 
 .btn-player:hover {
-    scale: 120%;
+    transform: scale(120%);
 }
 
 .btn-tool:hover {
@@ -93,4 +92,19 @@
 
 #volume-control:hover #volume-btn {
     display: block;
+}
+
+#demo-panel:hover #delete-item {
+    transform: rotate(180deg);
+}
+
+#delete-call {
+    animation: delete 1.5s linear infinite;
+}
+
+@keyframes delete {
+    50% {
+        right: -120px;
+        top: 0;
+    }
 }
