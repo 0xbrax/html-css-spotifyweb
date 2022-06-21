@@ -7,10 +7,32 @@
     scroll-behavior: smooth;
 }
 
+.btn-call:hover {
+    background-color: rgba(255, 255, 255, 0.2);
+    scale: 110%;
+    transform: translate(0, calc(-90% / 2));
+}
+
 .fx-btn-sidebar:hover {
     box-shadow: inset 5px 0px 0px 0px var(--fx-color);
     background-color: rgba(255, 255, 255, 0.2);
     color: var(--main-txt-color);
+}
+
+.fx-btn-sideitem-spec:hover {
+    color: var(--main-txt-color);
+}
+
+.fx-btn-sideitem-spec:hover .add-playlist {
+    background-color: var(--main-txt-color);
+}
+
+.fx-btn-sideitem:hover {
+    color: var(--main-txt-color);
+}
+
+.fx-btn-sideuser:hover {
+    opacity: 0.8;
 }
 
 .fx-btn-topbar:hover {
@@ -26,4 +48,14 @@
 
 .fx-btn-topbar:hover .fx-btn-topbar-border {
     background-color: var(--fx-color);
+}
+
+.card:hover {
+    outline: 2px solid rgba(255, 255, 255, 0.2);
+    outline-offset: 5px;
+}
+
+.card:hover .img-overlay, 
+.card:hover .play-overlay {
+    display: block;
 }

@@ -82,8 +82,13 @@
     overflow-y: scroll;
 }
 
+.playlist {
+    margin-top: 5px;
+}
+
 .playlist-item li {
-    margin: 10px 15px;
+    display: inline-block;
+    margin: 5px 15px;
 }
 
 .user {
@@ -255,6 +260,7 @@
     left: 0;
     width: 100%;
     height: 100%;
+    display: none;
 }
 
 .play-overlay {
@@ -264,6 +270,7 @@
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
+    display: none;
 }
 
 /* FOOTER */
@@ -383,7 +390,7 @@ footer {
 #volume-btn {
     height: 16px;
     width: 16px;
-    background-color: va;
+    background-color: var(--fx-color);
     position: absolute;
     right: 0;
     top: 50%;
